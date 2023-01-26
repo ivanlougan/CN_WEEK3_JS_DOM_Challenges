@@ -1,0 +1,25 @@
+body {
+    background-color: darkgrey;
+}
+
+.drumSet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 200px;
+}
+
+.drumKeys {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: rgb(138, 201, 201);
+    max-width: 80px;
+    padding: 20px;
+}
+
+.drumKeys:hover {
+    box-shadow: 5px 5px 5px 5px rgb(116, 109, 109);
+    transform: translateY(-5px);
+}

@@ -1,0 +1,20 @@
+body {
+    background-color: bisque;
+}
+
+#optionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 320px;
+    width: 500px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: all 0.6s;
+}
